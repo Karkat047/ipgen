@@ -1,8 +1,10 @@
 .appBody {
-  width: 800px;
+  max-width: 1080px;
+  min-width: 400px;
   margin: 0 auto;
   display: flex;
+  padding: 20px;
   flex-direction: column;
-  background-color: rgb(205, 239, 255);
+  background-color: rgb(255, 255, 255);
   border-radius: 10px;
 }

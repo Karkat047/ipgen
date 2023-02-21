@@ -1,0 +1,38 @@
+.adressStyle {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  justify-content: center;
+  align-content: center;
+}
+
+
+.tableBodyComp {
+  border-style: solid;
+  border-width: 0 1px 1px 0;
+  border-color: white;
+}
+
+.tableBodyComp {
+  padding: 10px 20px;
+}
+
+.tableBody:last-child .tableBodyComp:first-child {
+  border-radius: 0 0 0 10px;
+}
+
+.tableBody:last-child .tableBodyComp:last-child {
+  border-radius: 0 0 10px 0;
+}
+
+tr td:last-child {
+  border-right: none;
+}
+
+.tableBody:nth-child(odd) {
+  background: rgb(214, 214, 214);
+}
+
+.tableBody:nth-child(even) {
+  background: #E8E6D1;
+}
